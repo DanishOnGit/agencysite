@@ -22,6 +22,62 @@ html,
 body {
   margin: 0;
   padding: 0;
+  line-height: 1.5;
 }
 
 /* Add styles here! */
+.max-width-wrapper {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+header {
+  margin-top: 96px;
+  margin-bottom: 64px;
+  /* padding-left: 24px;
+  padding-right: 24px; */
+}
+.intro-chunk {
+  width: 100%;
+  max-width: 330px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.title {
+  font-size: 2rem;
+  margin-bottom: 48px;
+}
+p {
+  margin-top: 1em;
+}
+strong {
+  color: var(--pri-green);
+}
+
+main {
+  border-top: 8px solid var(--grey-60);
+  padding-top: 8px;
+  background-color: var(--grey-40);
+}
+main section {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+.card {
+  width: 100%;
+  max-width: 800px;
+  padding: 8px 24px;
+  border-bottom: 8px solid var(--grey-60);
+  background-color: var(--grey-0);
+  /* margin-left: -16px;
+  margin-right: -16px; */
+}
+.indented-heading {
+  padding: 16px 32px;
+  background-color: var(--sec-gold-50);
+  width: fit-content;
+  border-bottom: 8px solid var(--sec-gold-40);
+  margin-left: -32px;
+}
